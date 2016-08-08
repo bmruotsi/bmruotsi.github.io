@@ -1,0 +1,35 @@
+#navbar {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  font-style: oblique;
+  font-variant: small-caps;
+  display: block;
+  position: fixed;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right:0;
+  list-style-type: none;
+  float: none;
+}
+
+#logo {
+  float: right;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+body {
+  display: inline-block;
+  text-align: justify;
+  cursor: url('navi.ico'), default;
+  padding-top: 10em;
+  position: static;
+  background: url('pooryoshi.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  font-size: medium;
+
+}

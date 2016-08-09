@@ -5,17 +5,24 @@
     <title>Know Your Roots</title>
     <link href="mario.ico" rel="icon" type="image/x-icon" />
     <link href="KnowYourRoots.css" rel="stylesheet">
+    <script type="text/javascript" src="javascripts/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          // alert("i'm working!");
+      });
+    </script>
   </head>
-  <body>
+  <body id='indexBody'>
     <audio loop autoplay>
-      <!<source src="mariotheme.mp3" type="audio/mpeg">
+      <source src="mariotheme.mp3" type="audio/mpeg">
     </audio>
+    <img src="logo.jpg" id="logo" alt="MDN">
+    <h1 id=title > Mario, Thats Why!</h1>
     <nav  id=navbar>
       <ul>
-        <img src="logo.jpg" id="logo" alt="MDN">
-        <li><a href="#">Classic Systems</a></li>
+        <li><a href="whymario.html">Why Mario you may ask</a></li>
         <li><a href="https://en.wikipedia.org/wiki/History_of_Nintendo">How It All Began</a></li>
-        <li><a href="#">What About It?</a></li>
+        <li><a href="friends.html">But dont forget about his friends</a></li>
       </ul>
     </nav>
     <ul id=meat>

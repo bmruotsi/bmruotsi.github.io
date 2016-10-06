@@ -23,7 +23,8 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +44,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">B. Maxwell Ruotsi</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,7 +54,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -71,10 +72,12 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+              <div class="col-lg-10 col-lg-offset-1">
+                <h1 id="homeHeading">Brian Maxwell Ruotsi</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Python Programmer - Biologist - Data Scientist - Explorer</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">More about me</a>
+              </div>
             </div>
         </div>
     </header>
@@ -82,11 +85,14 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                <div class="col-lg-6 text-center">
+                    <h2 class="section-heading">Greetings!</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">I'm a web developer from Buffalo, NY.  I enjoy tackling problems involving data processing and optimizing efficiency.  In my free time I like exploring my natural surroundings, both on land and in the water.  I also enjoy playing piano and trying to tackle difficult pieces.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Please look at my skills and projects</a>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                  <img id="solo" src="img/solo.jpg" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -96,7 +102,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Skills</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -105,30 +111,30 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                        <h3>Full Stack Development</h3>
+                        <p class="text-muted">Production of sites from top to bottom using the Django framework</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-bar-chart text-primary sr-icons"></i>
+                        <h3>Data Scientist</h3>
+                        <p class="text-muted">Data anlysis using python and presentation using the nvd3.js library</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x fa-database text-primary sr-icons"></i>
+                        <h3>Databases</h3>
+                        <p class="text-muted">Database construction and management using PostgreSQL and Django's RESTful API.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-puzzle-piece text-primary sr-icons"></i>
+                        <h3>Puzzles</h3>
+                        <p class="text-muted">Tackling difficult puzzles, in programming or logic puzzles, both excite and motivate me to find optimal solutions.</p>
                     </div>
                 </div>
             </div>
@@ -137,92 +143,62 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+            <div class="row no-gutter">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="http://peak-classifier.herokuapp.com/" class="portfolio-box">
+                        <img src="img/peak.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Peak Classifier
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Text sentiment analysis program
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="http://wellcom-staging.herokuapp.com/" class="portfolio-box">
+                        <img src="img/wellcom.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    WellCom
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    My capstone project for The Iron Yard.  A water monitoring device with accompanying website for data visualizations.
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="http://github.com/mendez6412/django-movies" class="portfolio-box">
+                        <img src="img/flix.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Flix
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    A website for rating and finding similar raters of movies
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="http://github.com/TRIYGH/traffic-simulation" class="portfolio-box">
+                        <img src="img/road.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Road Rage
                                 </div>
                                 <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+                                    A traffic simulation program
                                 </div>
                             </div>
                         </div>
@@ -232,14 +208,14 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
+    <!-- <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Free Download at Start Bootstrap!</h2>
                 <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
             </div>
         </div>
-    </aside>
+    </aside> -->
 
     <section id="contact">
         <div class="container">
@@ -247,15 +223,27 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Thank you for looking at my portfolio! I'd love to help on your project.  Please send me an email or call and i will get back to you promptly.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <div class="col-lg-12 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <p>716-481-4588</p>
                 </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                <div class="col-lg-3 text-center">
+                      <a href="http://www.linkedin.com/bmruotsi"><i class="fa fa-linkedin fa-3x sr-contact"></i>
+                      <p>LinkedIn</p></a>
+                </div>
+                <div class="col-lg-3 text-center">
+                      <a href="http://www.instagram.com/bmaxw3ll"><i class="fa fa-instagram fa-3x sr-contact"></i>
+                      <p>Instagram</p></a>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <a href="http://www.github.com/bmruotsi"><i class="fa fa-github-alt fa-3x sr-contact"></i>
+                    <p>Git Hub</p></a>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <a href="mailto:your-email@your-domain.com"><i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p>bmruotsi@gmail.com</p></a>
                 </div>
             </div>
         </div>
